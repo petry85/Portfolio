@@ -79,24 +79,28 @@ div#img1 {
     background-image: url('imagens/fundo/fundo1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 90%;
 }
 
 div#img2 {
     background-image: url('imagens/fundo/fundo2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 90%;
 }
 
 div#img3 {
     background-image: url('imagens/fundo/fundo3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 90%;
 }
 
 div#img4 {
     background-image: url('imagens/fundo/fundo4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 90%;
 }
 
 footer {
