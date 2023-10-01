@@ -4,16 +4,30 @@
     padding: 0;
 }
 
+
+/*
+#03115e
+#4b62e3
+#0626DE
+#1F295E
+#051EAB
+#373f51 extra
+#1b1b1e extra
+*/
+
 :root {
-    --cor1: #0b1366;
-    --cor2: #606BEA;
-    --cor3: #192be6;
-    --cor4: #2a2f66;
-    --cor5: #1421b3;
+    --cor1: #0B47B0;
+    --cor2: #2D4A7D;
+    --cor3: #062863;
+    --cor4: #3F69B0;
+    --cor5: #0F66FC;
     --fonte1: Arial, Helvetica, sans-serif;
 }
 
 body {
+    background-image: url('imagens/fundo/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor2);
     margin: 10px;
@@ -26,8 +40,10 @@ body {
 header {
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
     color: white;
+    padding: 10px;
     text-align: center;
     font-size: 1.5em;
+    border-radius: 0px 0px 10px 10px;
 }
 
 hr {
@@ -47,11 +63,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: var(--cor2);
     color: black;
+    margin: 5px 5px 5px 15px;
     text-align: center;
     padding: 5px;
-    margin: auto;
     border-radius: 5px;
 }
 
@@ -73,34 +89,32 @@ div {
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 
 div#img1 {
-    background-image: url('imagens/fundo/fundo1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 90%;
 }
 
 div#img2 {
-    background-image: url('imagens/fundo/fundo2.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 90%;
 }
 
 div#img3 {
-    background-image: url('imagens/fundo/fundo3.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 90%;
 }
 
 div#img4 {
-    background-image: url('imagens/fundo/fundo4.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 90%;
+}
+
+div>h2 {
+    background-image: linear-gradient(to right, var(--cor3), white);
+    color: WHITE;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.349);
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 5px;
 }
 
 footer {
