@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #0b1366;
+    --cor2: #606BEA;
+    --cor3: #192be6;
+    --cor4: #2a2f66;
+    --cor5: #1421b3;
+    --fonte1: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+    margin: 10px;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.452);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+hr {
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 5px 5px 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+article {
+    width: 90%;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+div {
+    width: 550px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#img1 {
+    background-image: url('imagens/fundo/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#img2 {
+    background-image: url('imagens/fundo/fundo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#img3 {
+    background-image: url('imagens/fundo/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#img4 {
+    background-image: url('imagens/fundo/fundo4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a::after {
+    display: inline-block;
+    content: '\00A0\1F5E8\00A0';
+    width: 2px;
+    height: 2px;
+}
