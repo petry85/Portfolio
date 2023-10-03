@@ -48,10 +48,12 @@ header {
 
 #hr1 {
     margin-bottom: 15px;
+    color: white;
 }
 
 #hr2 {
     margin: 15px 0px 15px 0px;
+    color: white;
 }
 
 nav a {
@@ -89,42 +91,34 @@ article {
 div {
     width: 90%;
     border: 1px solid black;
-    margin: 10px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px var(--cor3);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
 }
 
-div#div1 {
+div#div1,
+#div2,
+#div3,
+#div4 {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #div1>img {
     width: 200px;
     display: inline-block;
-    margin: 20px 0px 0px 15px;
+    margin: 20px 0px 0px 10px;
     transform: translate(-15%, 8%);
 }
 
 #div1>p {
     width: 60%;
-    margin: 0px 0px 0px 10px;
     display: inline-block;
-    transform: translate(0%, -29%);
-    text-indent: 20px;
-}
-
-div#div2 {
-    width: 90%;
-}
-
-div#div3 {
-    width: 90%;
-}
-
-div#div4 {
-    width: 90%;
+    transform: translate(0%, -19%);
+    line-height: 1.5em;
 }
 
 div>h2 {
@@ -139,7 +133,6 @@ div>h2 {
 div p {
     padding: 20px 15px 15px 15px;
     font-size: 1em;
-    text-indent: 10px;
     text-align: justify;
     font-weight: bold;
 }
@@ -174,8 +167,8 @@ footer a::after {
     #div1>p {
         width: 85%;
         font-size: 1em;
-        margin: 0px 0px 10px 10px;
-        text-indent: 20px;
+        margin: 0px 0px 20px 10px;
         transform: translate(0%, 10%);
+        text-indent: 0px;
     }
 }
