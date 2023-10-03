@@ -87,7 +87,6 @@ article {
 
 div {
     width: 550px;
-    height: 380px;
     border: 1px solid black;
     margin: 10px;
     margin-left: auto;
@@ -96,19 +95,34 @@ div {
     box-shadow: 2px 2px 2px var(--cor3);
 }
 
-div#img1 {
+div#div1 {
     width: 90%;
 }
 
-div#img2 {
+#div1>img {
+    width: 200px;
+    display: inline-block;
+    margin: 20px 0px 0px 15px;
+    transform: translate(-15%, 8%);
+}
+
+#div1>p {
+    width: 60%;
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+    transform: translate(0%, -29%);
+    text-indent: 20px;
+}
+
+div#div2 {
     width: 90%;
 }
 
-div#img3 {
+div#div3 {
     width: 90%;
 }
 
-div#img4 {
+div#div4 {
     width: 90%;
 }
 
@@ -123,9 +137,10 @@ div>h2 {
 
 div p {
     padding: 20px 15px 15px 15px;
-    font-size: 1.3em;
+    font-size: 1em;
     text-indent: 10px;
     text-align: justify;
+    font-weight: bold;
 }
 
 footer p {
@@ -146,4 +161,20 @@ footer a::after {
     content: '\00A0\1F5E8\00A0';
     width: 2px;
     height: 2px;
+}
+
+@media screen and (max-width:800px) {
+    #div1>img {
+        display: block;
+        width: 40%;
+        margin: auto;
+        align-items: center;
+    }
+    #div1>p {
+        width: 85%;
+        font-size: 1em;
+        margin: 0px 0px 10px 10px;
+        text-indent: 20px;
+        transform: translate(0%, 10%);
+    }
 }
