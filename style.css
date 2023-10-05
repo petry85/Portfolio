@@ -212,7 +212,7 @@ footer a::after {
         text-indent: 0px;
         justify-content: flex-end;
     }
-    #div_portifolio {
+    #div_portfolio {
         display: flex;
         align-items: center;
         flex-direction: column;
