@@ -137,6 +137,46 @@ div p {
     font-weight: bold;
 }
 
+#div_portifolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    box-shadow: none;
+    margin: 10px auto 10px auto;
+}
+
+.miniatura {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+#onepiece {
+    background-image: url('imagens/projeto-one-piece.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#site-android {
+    background-image: url('imagens/site-android.png');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cordel {
+    background-image: url('imagens/cordel.png');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 footer p {
     margin: auto;
     text-decoration: none;
@@ -159,7 +199,7 @@ footer a::after {
 
 @media screen and (max-width:800px) {
     #div1>img {
-        display: block;
+        display: flex;
         width: 40%;
         margin: auto;
         align-items: center;
@@ -167,8 +207,9 @@ footer a::after {
     #div1>p {
         width: 85%;
         font-size: 1em;
-        margin: 0px 0px 20px 10px;
+        margin: 0px 0px 10px 10px;
         transform: translate(0%, 10%);
         text-indent: 0px;
+        justify-content: flex-end;
     }
 }
