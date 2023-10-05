@@ -137,7 +137,7 @@ div p {
     font-weight: bold;
 }
 
-#div_portifolio {
+#div_portfolio {
     display: flex;
     flex-direction: row;
     justify-content: center;
