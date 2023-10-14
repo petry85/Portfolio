@@ -291,6 +291,9 @@ footer a::after {
         transform: translate(0%, -19%);
         line-height: 1.5em;
     }
+    #div2 {
+        background-position: right center;
+    }
     #div_portfolio {
         display: flex;
         align-items: center;
