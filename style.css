@@ -83,7 +83,7 @@ header h1 {
     margin: auto;
     justify-content: center;
     width: 150px;
-    animation: loading 2s linear;
+    animation: loading 4s;
 }
 
 #hr1 {
