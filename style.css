@@ -69,11 +69,21 @@ header h1 {
     justify-content: center;
 }
 
+@keyframes loading {
+    from {
+        transform: scale(10%);
+    }
+    to {
+        transform: scale(100%);
+    }
+}
+
 #logo {
     display: flex;
-    align-items: flex-start;
+    margin: auto;
     justify-content: center;
     width: 150px;
+    animation: loading 2s linear;
 }
 
 #hr1 {
