@@ -274,6 +274,21 @@ div p {
     color: black;
 }
 
+#div_projetos2 a p {
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+#adv {
+    background-image: url('imagens/advogadoslogo.png');
+    background-color: #3F69B0;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
 footer p {
     margin: auto;
     text-decoration: none;
